@@ -7,6 +7,8 @@ Author: Connor Lenio
 
 Dependencies: Automator, fswatch
 
+Description: Prompts the user for a directory of the repo they want watched for changes. Once changes are being watched for the repo, any changes made within the repo will automatically be pushed to Github with the current time and date.
+
 ## Instructions
 Complete the following steps if you would like the same function on your Mac:
 
