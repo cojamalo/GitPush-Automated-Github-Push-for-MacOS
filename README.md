@@ -19,7 +19,7 @@ Complete the following steps if you would like the same function on your Mac:
       ```
 
 2) Create a bash script using a text editor or IDE that runs the git update code. Feel free to make a custom commit message.
-    * Clone or recreate savePush.sh from this repo:
+    * Clone this repo or recreate savePush.sh from the following code:
     ```
     #!/bin/bash
     git add .
@@ -28,9 +28,9 @@ Complete the following steps if you would like the same function on your Mac:
     ```
     
 3) Create an app for your script and wrap it as an Application using MacOS Automator
-    * While automator is a headache to use for most things, the simple settings in this case make it easy. And, you can add the script to the dock by saving it as an Application when you are done
-    * Use an "Ask For Text" and "Run Shell Script" block to create the same functionality
-    * See Automator Settings.png in this repo for the settings I used
+    * While Automator is a headache to use for most things, the simple settings in this case make it easy. And, you can add the script to the dock by saving it as an Application when you are done.
+    * Use an "Ask For Text" and "Run Shell Script" block to create the same functionality.
+    * See Automator Settings.png in this repo for the settings I used.
     * The important commandline code that will be run is:
     ```
     cd "$f"
