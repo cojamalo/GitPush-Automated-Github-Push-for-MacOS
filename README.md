@@ -19,7 +19,7 @@ Complete the following steps if you would like the same function on your Mac:
       ```
 
 2) Create a bash script using a text editor or IDE that runs the git update code. Feel free to make a custom commit message.
-    * Feel free to clone or recreate savePush.sh from this repo:
+    * Clone or recreate savePush.sh from this repo:
     ```
     #!/bin/bash
     git add .
