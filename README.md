@@ -39,3 +39,5 @@ Complete the following steps if you would like the same function on your Mac:
 	fswatch -0 -orl2 -e "\.git" "$f" | xargs -0 -n1 ~/savePush.sh
   ```
     * Where $f is a stand in for the input path from the "Ask for Text" input
+    
+4) After running the program, make sure to close the script when you no longer what changes to be tracked through the automator icon in your toolbar.
